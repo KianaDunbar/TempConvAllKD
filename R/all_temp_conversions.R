@@ -69,6 +69,7 @@ K_to_F <- function(K_temp){
 #' @examples description
 #' temp1 <- K_to_C(65);
 #' temp2 <- K_to_C(c(255, 311, 273));
+#' @export
 K_to_C <- function(K_temp){
   C_temp <- K_temp - 273
   return(C_temp)
